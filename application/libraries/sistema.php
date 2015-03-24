@@ -11,6 +11,22 @@ class Sistema {
 		$this->CI->load->helper('funcoes');
 	}
 
+	public function enviar_email($para, $assunto, $mensagem, $formato='html'){
+		$this->CI->load->library('email');
+		$config['mailtype'] = $formato;
+		$this->CI->email->initialize($config);
+		$this->CI->email->from('adm@site.com','Administração do Site');
+		$this->CI->email->to($para);
+		$this->CI->email->subject($assunto);
+		$this->CI->email->message($mensagem);
+		if ($this->CI->email->send()) {
+			return true;
+		} else {
+			return $this->CI->emai->print_debugger();
+		}
+		
+	}
+
 }
 
 /* End of file sistema.php */
