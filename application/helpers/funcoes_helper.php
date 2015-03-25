@@ -29,7 +29,6 @@ function set_tema($prop, $valor, $replace=true){
 }
 
 //retorna os valores da array $tema da classe sistema
-
 function get_tema() {
 	$CI =& get_instance();
 	$CI->load->library('sistema');
@@ -47,6 +46,22 @@ function init_painel(){
 	set_tema('titulo_padrao','Painel Admin');
 	set_tema('rodape','<p>&copy;2015</p>');
 	set_tema('template','painel_view');
+
+	set_tema('headerinc', load_css(array('normalize','foundation.min','main')),false);
+	set_tema('footerinc', load_js(array('vendor/jquery','vendor/modernizr','foundation.min','main')),false);
+}
+
+// Iniciar o painel ADM com recursos necessários
+function init_site(){
+	$CI =& get_instance();
+	$CI->load->library(array('sistema'));
+	$CI->load->helper(array('form','url','array','text'));
+	//carregamento dos Models
+	//$CI->load->model('usuarios_model','usuarios');
+
+	set_tema('titulo_padrao','Site');
+	set_tema('rodape','<p>&copy;2015</p>');
+	set_tema('template','site_view');
 
 	set_tema('headerinc', load_css(array('normalize','foundation.min','main')),false);
 	set_tema('footerinc', load_js(array('vendor/jquery','vendor/modernizr','foundation.min','main')),false);
