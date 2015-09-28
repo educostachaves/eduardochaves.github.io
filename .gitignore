@@ -1,4 +1,6 @@
-_site
-.sass-cache
-node_modules
-_drafts
+_site/
+.sass-cache/
+node_modules/
+_drafts/
+docs/
+sh.exe.stackdump
