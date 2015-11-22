@@ -6,9 +6,9 @@ paginate: 2 #6
 comments: true
 paginate_path: "/page/:num"
 
-baseurl: "/nandomoreira-jekyll-theme" # change to empty string ""
-domain_name: nandomoreira.me
-google_analytics: UA-52446115-1
+baseurl: "" # change to empty string ""
+domain_name: educostachaves.github.io
+google_analytics: UA-70437282-1
 
 source:      source
 destination: _site
@@ -17,26 +17,26 @@ destination: _site
 
 # site title, description, meta_description, meta_keywords
 # Details for the RSS feed generator
-name: Fernando Moreira
-title: Fernando Moreira | Desenvolvimento Web e tudo mais..
-description: "Desenvolvedor Front-end/Wordpress, Design Responsivo, HTML5, CSS3 e JavaScript"
-meta_description: "Desenvolvedor Front-end/Wordpress, Design Responsivo, HTML5, CSS3 e JavaScript"
-meta_keywords: "site, website, loja virtual, lojas virtuais, e-commerce, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, otimizacao, performance"
-url: http://nandomoreira.me
-production_url: http://nandomoreira.me
-repo: https://github.com/nandomoreirame/nandomoreira-jekyll-theme
-disqus_shortname: "fernandomoreira"
+name: Eduardo Chaves
+title: Eduardo Chaves | Front End and Web Developer
+description: "Front-End, FullStack, Designer and Web Developer"
+meta_description: "Front-End, FullStack, Designer and Web Developer"
+meta_keywords: "website, webdeveloper, front end, front end develper, website, e-commerce, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, performance, react, flux, relay, graphql"
+url: http://educostachaves.github.io
+production_url: http://educostachaves.github.io
+repo: https://github.com/educostachaves/educostachaves.github.io
+disqus_shortname: "educostachaves"
 rss_path: source/
 author:
-  name      : Fernando Moreira
-  image     : /assets/images/author.jpg
-  email     : nandomoreira.me@gmail.com
-  url       : http://nandomoreira.me
-  facebook  : http://facebook.com/fernando.dev
-  twitter   : http://twitter.com/nandomoreirame
-  instagram : http://instagram.com/nandomoreira.me
-  github    : http://github.com/nandomoreirame
-  linkedin  : http://linkedin.com/in/nandomoreirame
+  name      : Eduardo Chaves
+  image     : /assets/images/perfil.jpg
+  email     : educostachaves@gmail.com
+  url       : http://educostachaves.github.io
+  facebook  : http://facebook.com/educostachaves
+  twitter   : http://twitter.com/educostachaves
+  instagram : http://instagram.com/educostachaves
+  github    : http://github.com/educostachaves
+  linkedin  : http://linkedin.com/in/educostachaves
   bio       : "Desenvolvedor Front-end/Wordpress entusiasta de performance, design responsivo e usabilidade, sempre em busca do melhor projeto e de um bom café."
 
 # thought
@@ -47,7 +47,7 @@ thought:
 # Plugin: jekyll-assets
 assets:
   dirname: /assets
-  baseurl: /nandomoreira-jekyll-theme/assets/ # change to /assets/
+  baseurl: /assets/ # change to /assets/
   sources:
     - assets/images
     - assets/fonts

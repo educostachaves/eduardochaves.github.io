@@ -1,11 +1,11 @@
 {
-  "name": "nandomoreira.me",
+  "name": "eduardochaves.io",
   "version": "1.0.0",
   "homepage": "https://github.com/nandomoreirame/nandomoreirame.github.io",
   "private": true,
   "license": "MIT",
   "authors": [
-    "Fernando Moreira <nandomoreira.me@gmail.com>"
+    "Eduardo Chaves <educostachaves@gmail.com>"
   ],
   "dependencies": {
     "classie": "~1.0.1",
