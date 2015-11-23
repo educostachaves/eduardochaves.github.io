@@ -1,68 +1,25 @@
-permalink   : /:title/
-markdown    : kramdown
-highlighter : pygments
+# Site settings
 
-paginate: 2 #6
-comments: true
-paginate_path: "/page/:num"
+title: Strata # Title of your site
+email: your-email@domain.com # Your contant email
 
-baseurl: "" # change to empty string ""
-domain_name: educostachaves.github.io
-google_analytics: UA-70437282-1
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
 
-source:      source
-destination: _site
+# Social links.
+# Replace the word 'example' with your username if you want to include the icon in the left sidebar
+# Delete the word 'example' if you don't want to include the icon in the left sidebar
 
-# cover: /assets/images/header-cover.png
+twitter_username:     example  # Replace this with your Twitter username
+github_username:      example  # Replace this with your GitHub username
+linkedin_username:    example  # Replace this with your LinkedIn username
+google_plus_username: example  # Replace this with your Google+ username
+facebook_username:    example  # Replace this with your Facebook username
+dribbble_username:    example  # Replace this with your Dribbble username
 
-# site title, description, meta_description, meta_keywords
-# Details for the RSS feed generator
-name: Eduardo Chaves
-title: Eduardo Chaves | Front End and Web Developer
-description: "Front-End, FullStack, Designer and Web Developer"
-meta_description: "Front-End, FullStack, Designer and Web Developer"
-meta_keywords: "website, webdeveloper, front end, front end develper, website, e-commerce, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, performance, react, flux, relay, graphql"
-url: http://educostachaves.github.io
-production_url: http://educostachaves.github.io
-repo: https://github.com/educostachaves/educostachaves.github.io
-disqus_shortname: "educostachaves"
-rss_path: source/
-author:
-  name      : Eduardo Chaves
-  image     : /assets/images/perfil.jpg
-  email     : educostachaves@gmail.com
-  url       : http://educostachaves.github.io
-  facebook  : http://facebook.com/educostachaves
-  twitter   : http://twitter.com/educostachaves
-  instagram : http://instagram.com/educostachaves
-  github    : http://github.com/educostachaves
-  linkedin  : http://linkedin.com/in/educostachaves
-  bio       : "Desenvolvedor Front-end/Wordpress entusiasta de performance, design responsivo e usabilidade, sempre em busca do melhor projeto e de um bom café."
-
-# thought
-thought:
-  text: I have no special talent. I am only passionately curious.
-  author: Albert Einstein
-
-# Plugin: jekyll-assets
-assets:
-  dirname: /assets
-  baseurl: /assets/ # change to /assets/
-  sources:
-    - assets/images
-    - assets/fonts
-    - assets/css
-    - assets/js
-  cache: true
-  gzip: [ text/css, application/javascript ]
-
-# Compress HTML
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  profile: false
-  ignore:
-    envs: all
-
-exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
+# Build settings
+markdown: kramdown
